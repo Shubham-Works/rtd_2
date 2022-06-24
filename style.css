@@ -1,0 +1,98 @@
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+
+.container{
+display: flex;
+height: 600px;
+width: 950px;
+border: 1px solid black;
+margin: auto;
+margin-top: 10%;
+}
+
+
+.form{
+
+display: flex;
+flex-direction: column;
+width: 50%;
+align-items:center ;
+background-color: whitesmoke;
+
+
+}
+
+.form h2{
+
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 40px;
+
+    
+
+}
+
+.box{
+padding: 12px;
+width: 65%;
+margin: 15px;
+outline: none;
+border: 1px solid black;
+border-radius: 20px;
+}
+
+#submit{
+
+    padding: 12px;
+    width: 40%;
+    margin-top: 40px;
+    background-color: #5138EE;
+    color: white;
+    font-weight: bold;
+    border:none;
+    outline: none;
+    border-radius: 20px;
+
+}
+#submit:hover{
+
+cursor: pointer;
+background-color: black;
+
+}
+
+.form a{
+
+    color: black;
+    margin: auto;
+}
+.form a:hover{}
+
+.side{
+    display: flex;
+}
+
+.side img{
+    height:  auto;
+    width: auto;
+}
+
+i{
+
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px;
+    border-radius: 20px;
+    border: 1px solid black;
+    align-items:center ;
+    width: 50%;
+    display: flex;
+    border-spacing: 1em .5em;
+  padding: 1em 1em 1em 1em;
+
+}
